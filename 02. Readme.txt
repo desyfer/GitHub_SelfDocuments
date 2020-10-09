@@ -1,0 +1,78 @@
+01) `#` works like a header tag in html. The number of `#`'s decide the importance (and hence the font size and font-weight) of the heading...the lesser the number of `#`, the more important it is. There HAS to be a space between the series of `#` and the first letter of the heading. The whole line is the header. Headers can go from `#` (1) to `######` (6).
+
+	`## Hello`
+
+	is the same as:
+
+	`<h2>Hello</h2`
+
+02) Anything written inside
+
+		` `
+
+	is viewed as code. ` is the button right below the escape button...the one with ~ in it.
+
+03) Anything written inside `** **` is viewed as bold, while anything written inside `_ _` is viewed in italics and anything written inside `~~ ~~` appears as strike through.
+
+	**NOTE**: `** **` and `__ __` are for bold and `_ _ `and `* *` are for italics (yeah confusing, so stick to one)`
+
+04) To create a link, type the words that appear inside `[]` and the url of the link inside `()` and write it like:
+	
+	`[]()`
+
+05) Ordered Lists can be listed like (the numbering will be done automatically and the numbering type changes with each indent {done with TABS}):
+
+		1. Item 1
+		1. Item 2
+		1. Item 3
+			1. Item 3a
+			1. Item 3b
+
+	**NOTE**: There has to be a __space__ after the numbering
+
+06) Unordered lists can be listed like:
+
+		* Item 1
+		* Item 2
+		  * Item 2a
+		  * Item 2b
+
+	**NOTE**: There has to be a __space__ after the bullets. You can also use `-` instead of `*`. The bullet type changes with each indent (done with TABS) too
+
+07) Images can be added like:
+
+`![Alt Text](url)`
+
+08) You can add quotes with > like:
+
+`>`
+
+Everything __within that line__ is viewed as a quote.
+
+09) You can add code with just indenting the whole of block of code by **4 spaces**.
+
+10) You can use syntax highlighting for various languages by encapsuling the code like:
+
+		```languagename
+		//code
+		```
+
+	eg.
+
+		```javascript
+		function fancyAlert(arg) {
+		  if(arg) {
+		    $.facebox({div:'#foo'})
+		  }
+		}
+		```
+
+	Output:
+
+	```javascript
+	function fancyAlert(arg) {
+	  if(arg) {
+	    $.facebox({div:'#foo'})
+	  }
+	}
+	```

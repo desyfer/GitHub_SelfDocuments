@@ -1,0 +1,3 @@
+01) You can create a profile readme file which gets displayed at the very top when someone visits your profile by creating a respository with the EXACT SAME NAME as your username.
+
+02) Then add a readme file to it, add the content, and you're done.
